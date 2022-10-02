@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Groucho Marx :: Contact</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="apple-touch-icon" href="images/apple-icon.png"/>
+        <link rel="stylesheet" href="css/styles.css" />
+        <style>
+            #orderButton {
+                    background-color: #d33b2d;
+                    color: #FFFFFF; }
+
+            #resetButton {
+                    background-color: #e0de4d; }
+        </style>
+   </head>
+
+   <body>
+
+    <header>
+        <h1>The Life of Groucho Marx</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="gallery.html">Gallery</a> | <a href="faq.html">FAQs</a> | <a href="contact-us.html">Contact</a> 
+    </nav>
+    
+    <section>
+        <h2>What is "Marx-Merch?"</h2>
+
+        <p>Check out our selection of Groucho Marx-related merchandise. Our inventory ranges from costumes to posters to "gag bags" (an assortment of Groucho Marx-related toys and knick-knacks).</p>
+
+        <table border="1" cellpadding="8">
+            <caption><em>Our Groucho Marx merchandise.</em></caption>
+            <thead>
+              <tr>
+                <td>&nbsp;</td>
+                <th scope="col" abbr="Column 1" id="col1">Small</th>
+                <th scope="col" abbr="Column 2" id="col2">Medium</th>
+                <th scope="col" abbr="Column 3" id="col3">Large</th>
+              </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th scope="row">Costumes</th>
+                    <td headers="col1">$19.99</td>
+                    <td headers="col2">$23.99</td>
+                    <td headers="col3">$26.99</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">Enamel Pins</th>
+                    <td headers="col1">$5.99 (3 Pins)</td>
+                    <td headers="col2">$7.99 (6 pins)</td>
+                    <td headers="col3">$9.99 (9 pins)</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">Gag Bags</th>
+                    <td headers="col1">$9.99 (3 items)</td>
+                    <td headers="col2">$15.99 (5 items)</td>
+                    <td headers="col3">$19.99 (7 items)</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">Posters</th>
+                    <td headers="col1">$19.99</td>
+                    <td headers="col2">$29.99</td>
+                    <td headers="col3">$39.99</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">T-Shirts</th>
+                    <td headers="col1">$12.99</td>
+                    <td headers="col2">$14.99</td>
+                    <td headers="col3">$19.99</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Order Marx-Merch Now!</h2>
+
+            <p>Fill out our customary form to learn more about our stock availability. You can also make a request for a customized gift!</p>
+
+        <fieldset>
+        <legend><em>Please provide the requested information below.</em></legend>
+
+            <h3>Key Information</h3>
+                
+                <form id="myMailerForm" method="post" action="mailto:e2805745@student.dcccd.edu">
+            
+                    <p><label title="Enter your full name.">Name <input type="text" name="Name" placeholder="Name"></label></p>
+                    
+                    <p><label title="Enter your email address.">E-Mail <input type="text" name="Email" placeholder="Email"></label></p>
+                    
+                    <p><label title="Select your merchandise.">Merchandise </label>
+
+                    <label title="Select merchandise.">
+                        <select name="merchID">
+                            <option value="">&larr;&nbsp;Select Merch&nbsp;&rarr;</option>
+                            <option value="1">Costumes</option>
+                            <option value="2">Enamel Pins</option>
+                            <option value="3">Gag Bags</option>
+                            <option value="4">Posters</option>
+                            <option value="5">T-Shirts</option>
+                        </select>
+                    </label></p>
+
+                    <p>Are you ordering to a location in the U.S.?
+                        <br>
+                    <label title="Select if you are in the U.S."><input type="radio" name="request"> Yes</label>
+                        <br>
+                        <label title="Select if you are outside the U.S."><input type="radio" name="request"> No</label></p>
+            
+            <h3>Custom Gift Requests</h3>
+            
+                <p><label for="message">How Would You Like to Customize Your Gift?</label><br>
+                <textarea id="message" name="message"></textarea></p>
+
+                <p><label title="Select to be added to email list."><input type="checkbox" name="contact-me"> Sign me up for future emails.</label></p>
+
+                <input type="submit" id="orderButton" name="submit" value="Order Now">
+
+                <input type="reset" id="resetButton" value="Reset">
+
+            </form>
+        </fieldset>
+    </section>
+
+    <hr>
+
+    <footer>
+        <p class="footer"><span><a href="https://www.dallascollege.edu/pages/default.aspx" target="_blank">Dallas College</a></span></p>
+        <p class="footer"><a href="mailto:e2805745@student.dcccd.edu">e2805745@student.dcccd.edu</a></p>
+        <p class="footer">Copyright &copy; 2022 Hunter Marion</p>
+    </footer>
+  
+    </body>
+</html>

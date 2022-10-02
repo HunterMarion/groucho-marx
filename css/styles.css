@@ -1,0 +1,133 @@
+
+/* Elements: */
+
+* { 
+    background-color: #e9e6c7; }
+
+nav { 
+    font-family: Century Gothic, sans-serif; }
+
+h1 { 
+    margin-bottom: 0; 
+    margin-top: 0;
+    font-family: Century Gothic, sans-serif;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 3.5em;
+    padding-bottom: .5em; }
+
+h2 { 
+    font-family: Century Gothic, sans-serif ;
+    font-size: 2em;
+    color: black; }
+
+h3, h4, h5, h6 { 
+    font-family: Century Gothic, sans-serif;
+    font-size: 1.4em;
+    color: black; }
+
+p { 
+    font-family: Goudy Old Style, serif;
+    font-size: 1.2em;
+    color: black; }
+
+ul { 
+    list-style-type: circle; 
+    font-family: Goudy Old Style, serif; 
+    font-size: 1.2em; }
+
+ol { 
+    font-family: Goudy Old Style, serif; 
+    font-size: 1.2em; }
+
+dt {
+    font-family: Century Gothic, sans-serif; 
+    font-size: 1.2em; 
+    font-weight: bold;
+    padding-bottom: .3em; }
+
+dd {
+    font-family: Goudy Old Style, serif; 
+    font-size: 1.2em; 
+    padding-bottom: 1em; }
+
+th {
+    font-family: Century Gothic, sans-serif; 
+    font-size: 1em; 
+    font-weight: bold; 
+    background-color: #FFFFFF; }
+
+td {
+    font-family: Goudy Old Style, serif; 
+    font-size: 1.1em; 
+    background-color: #FFFFFF; }
+
+legend {
+    font-family: Goudy Old Style, serif; 
+    font-size: 1.2em; }
+
+textarea {
+    font-family: Century Gothic, sans-serif; 
+    font-size: .9em; 
+    background-color: #FFFFFF; }
+
+input {
+    font-family: Century Gothic, sans-serif; 
+    font-size: .8em; 
+    background-color: #FFFFFF; }
+
+select {
+    font-family: Century Gothic, sans-serif; 
+    font-size: .8em; 
+    background-color: #FFFFFF; }
+
+option {
+    font-family: Century Gothic, sans-serif; 
+    font-size: .9em; 
+    background-color: #FFFFFF; }
+
+blockquote { 
+    font-family: Goudy Old Style, serif;
+    font-style: italic; 
+    font-size: 1.2em; }
+
+caption {
+    font-family: Century Gothic, sans-serif; 
+    font-size: 1em; 
+    padding-bottom: .5em;}
+
+figcaption {
+    font-family: Century Gothic, sans-serif; 
+    font-size: .9em; }
+
+hr {
+    border: none;
+    border-top: 1px solid black;
+    height: 1em; }
+
+
+/* unvisited link */
+a:link { color:#372920; } 
+
+/* visited link */
+a:visited { color:#d33b2d; } 
+
+/* mouseover link */
+a:hover { color:#000000; } 
+
+/* selected link */
+a:active { color:#d33b2d; }  
+
+
+
+/* IDs: */
+
+
+
+/* Classes: */
+
+.footer {
+    font-family: Century Gothic, sans-serif; 
+    font-size: 1em; }
+
