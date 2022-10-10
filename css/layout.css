@@ -1,0 +1,44 @@
+article {
+    float: left;
+    border: solid medium #d33b2d;
+    border-radius: 1em;
+    width: 45%;
+    margin: 2%;
+    margin-top: 1em;
+    margin-bottom: 2em ; 
+    clear: right;
+    border-style: double; }
+
+article h3 {
+    padding: 0 20px;
+    background-color: ;
+    border-radius: 7px 7px 0 0; 
+    font-family: Century Gothic, sans-serif;
+    font-size: 1.4em;
+    font-style: italic;
+    color: black; }
+
+article p {
+    padding: 0 20px 30px 35px; /*top right bottom left*/
+    clear: right; }
+
+article > p {
+    margin: 20px 50px; }
+  
+figure {
+    float: left;
+    margin: 2vh; }
+  
+figure img {
+    display: block; 
+    float: left;
+    height: 185px;
+    width: 185px;
+    margin-left: auto;
+    margin-right: auto; }
+  
+figcaption {
+    text-align: left;
+    clear: both;
+    color: #372920; 
+    padding: 10px; }
